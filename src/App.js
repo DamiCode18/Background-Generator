@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import Background from './Background'
+import Background from './Background';
 
 class App extends Component {
-  render() {
-    return (
-      <Background />
-
-    );
-  }
+	render() {
+		return (
+			<div>
+				<Background />
+			</div>
+		);
+	}
 }
-
 
 export default App;
